@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>双飞翼布局</title>
+	<style>
+		.main-wrap{
+			width: 100%;
+			float: left;
+		}
+		.main{
+			background: red;
+			margin: 0 100px 0 200px;
+		}
+		.sub{
+			background: green;
+			float: left;
+			width: 200px;
+			margin-left: -100%;
+		}
+		.extra{
+			background: blue;
+			float: left;
+			width: 100px;
+			margin-left: -100px;
+		}
+	</style>
+</head>
+<body>
+	<div class="main-wrap">
+		<div class="main">main</div>
+	</div>
+	<div class="sub">sub</div>
+	<div class="extra">extra</div>
+</body>
+</html>
