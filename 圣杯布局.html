@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>圣杯布局</title>
+	<style>
+		body{
+			min-width: 900px;
+			overflow: hidden;
+		}
+		.container{
+			padding: 0 100px 0 300px;
+
+		}
+		.main{
+			background: red;
+			float: left;
+			width: 100%;
+		}
+		.sub{
+			background: green;
+			float: left;
+			width: 300px;
+			margin-left: -100%;
+			position: relative;
+			left: -300px;
+		}
+		.extra{
+			background: blue;
+			float: left;
+			width: 100px;
+			margin-left: -100px;
+			position: relative;
+			right: -100px;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="main">main</div>
+		<div class="sub">sub</div>
+		<div class="extra">extra</div>
+	</div>
+</body>
+</html>
