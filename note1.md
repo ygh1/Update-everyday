@@ -6,3 +6,7 @@
   加载一个一像素的base64透明图片
   <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
 ```
+### 自定义标签，加上displat:block就跟div一样，但是不推荐使用
+```
+<self-div></self-div>
+```
