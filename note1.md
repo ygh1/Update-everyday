@@ -10,3 +10,4 @@
 ```
 <self-div></self-div>
 ```
+###使用https协议的网站，请求的http协议的图片，可能导致浏览器上https小锁没有
